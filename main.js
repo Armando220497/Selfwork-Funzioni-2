@@ -1,6 +1,4 @@
-function fizzbuzz() {
-    let N = (prompt("Inserisci un numero"));
-
+function fizzbuzz(N) {
     if (N <= 0) {
         console.log("Devi inserire un numero intero positivo.");
         return;
@@ -19,5 +17,5 @@ function fizzbuzz() {
     }
 }
 
-
-fizzbuzz();
+let N = parseInt(prompt("Inserisci un numero"));
+fizzbuzz(N);
